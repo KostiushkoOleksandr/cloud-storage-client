@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f2f2f2;
+}
+
+
+.navbar {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+
+.navbar__header {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.navbar__login {
+  margin-left: auto;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+
+
+.navbar__exit {
+  margin-left: 250px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #EC5C93;
+  margin-right: 20px;
+}
+
+
+.navbar__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 100px;
+  width: auto;
+
+}
+
+.search {
+  width: 300px;
+  margin-left: auto;
+  position: relative;
+  display: flex;
+}
+
+
+.navbar__search {
+  border: 2px solid #1976D2;
+  border-right: none;
+  padding: 5px;
+  height: 38px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.navbar__search:focus {
+  color: #1976D2;
+}
+
+.searchButton {
+  width: 40px;
+  height: 38px;
+  border: 3px solid #1976D2;
+  background: #1976D2;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
